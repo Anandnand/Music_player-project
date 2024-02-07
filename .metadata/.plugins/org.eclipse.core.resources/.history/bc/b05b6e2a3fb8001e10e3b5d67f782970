@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>login</title>
+<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+	<table>
+		<form action="validate" method="post">
+			<h1>
+				<mark>
+					<tr>
+						<th colspan="2"><h2>Login</h2></th>
+					</tr>
+				</mark>
+			</h1>
+
+			<tr>
+				<th><label>E-mail:</label></th>
+				<td><input type="email" name="email" /></td>
+			</tr>
+			<br>
+
+			<tr>
+				<th><label>Password:</label></th>
+				<td><input type="password" name="password" /></td>
+			</tr>
+			<br>
+            <tr>
+				<th colspan="2"><button type="submit">Login</button>
+				</th>
+			</tr>
+		</form>
+	</table>
+	</div>
+</body>
+</html>

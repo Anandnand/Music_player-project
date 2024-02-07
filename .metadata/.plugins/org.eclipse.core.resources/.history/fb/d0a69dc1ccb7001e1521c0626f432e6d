@@ -1,0 +1,32 @@
+package com.example.demo.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+
+import com.example.demo.entities.Song;
+import com.example.demo.services.SongService;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+@Controller
+public class PlaylistController {
+	@Autowired
+	SongService ss;
+
+	@GetMapping("createPlaylist")
+public String createPlaylist(Model model) {
+	List<Song> songList	=ss.fetchAllSongs();
+		model.addAttribute("Songs", songList);
+    return  "createPlaylist";
+    
+    
+    		
+}
+
+
+
+
+}

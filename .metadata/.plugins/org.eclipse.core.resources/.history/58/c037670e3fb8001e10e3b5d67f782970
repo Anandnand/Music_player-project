@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TuneHub</title>
+<link rel="stylesheet" th:href="@{/css/index.css}">
+</head>
+<body>
+	
+	<a href="login"><h3><mark>Login</mark></h3></a>
+	<a href="registration"><h3><mark>register</mark></h3></a>
+</body>
+</html>

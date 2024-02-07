@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="addPlaylist" method="post">
+<label>Song name:</label>
+<input type="text" name="name" />
+<br>
+<div>
+<input type="checkbox" name="">
+</div>
+
+<input type="submit" value="Add Playlist">
+</form>
+</body>
+</html>

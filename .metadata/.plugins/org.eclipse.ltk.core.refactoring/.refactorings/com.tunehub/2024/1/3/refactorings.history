@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.tunehub/src/main/resources/templates/register.html&apos; to &apos;registration.html&apos;" description="Rename resource &apos;register.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/register.html" name="registration.html" stamp="1705649888384" updateReferences="true"/>
+</session>

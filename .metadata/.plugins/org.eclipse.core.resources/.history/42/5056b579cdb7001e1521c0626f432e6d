@@ -1,0 +1,17 @@
+package com.example.demo.services;
+
+import org.springframework.stereotype.Service;
+
+import com.example.demo.entities.Playlist;
+import com.example.demo.repositories.PlaylistRepo;
+
+@Service
+public class Playlistserviceimpl implements PlaylistService {
+
+	PlaylistRepo pr;
+	@Override
+	public void addPlaylist(Playlist playlists) {
+		
+	}
+
+}

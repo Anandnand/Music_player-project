@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>tune hub says hi </h1>
+<forms action="register" method="post">
+<label>username:</label>
+<input type="text" name="username" required/>
+<br>
+
+<label>email:</label>
+<input type="email" name="email" required/>
+<br>
+
+<label>password:</label>
+<input type="password" name="password" required/>
+<br>
+
+<label>gender:</label>
+<input type="Radio" name="gender" value="male"/>
+<input type="Radio" name="gender" value="female"/>
+<input type="Radio" name="gender" value="others"/>
+<br>
+
+<label>role:</label>
+<input type="Radio" name="role" value="admin"/>
+<input type="Radio" name="role" value="customer"/>
+<br>
+
+<label>address:</label>
+<textarea name="address"></textarea>
+<br>
+
+<input type="submit" value="register"/>
+</forms>
+</body>
+</html>

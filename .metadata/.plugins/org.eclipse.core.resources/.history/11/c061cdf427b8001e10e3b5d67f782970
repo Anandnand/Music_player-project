@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+iframe{
+height:100px;
+width:500px;
+}
+</style>
+</head>
+<body>
+	<table border>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Artist</th>
+				<th>Genre</th>
+				<th>Play</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr th:each="plylist:${allPlaylists}">
+				<td th:text="${plylist.name}"></td>
+				<td th:text="${plylist.songs}"></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

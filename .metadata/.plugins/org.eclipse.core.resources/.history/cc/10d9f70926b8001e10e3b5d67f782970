@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2><mark>Admin Page</mark></h2>
+<a href="newSong">Add new Song</a>
+</br>
+<a href="viewSongs">View all Songs</a>
+</br>
+<a href="createPlaylist">Create Playlist</a>
+
+
+</body>
+</html>

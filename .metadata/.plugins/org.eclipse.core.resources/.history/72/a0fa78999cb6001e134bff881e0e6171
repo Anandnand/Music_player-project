@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+</head>
+<body>
+<table>
+<form action="register" method="post">
+<h1><mark>
+        <tr>
+            <th colspan="2">Register</th>
+        </tr>
+</mark></h1>
+
+ <tr>    
+<th><label>user name:</label></th>
+<td><input type="text" name="username"/></td>
+</tr>
+<br>
+
+<tr>
+<th><label>email:</label></th>
+<td><input type="email" name="email" /></td>
+</tr>
+<br>
+
+<tr>
+<th><label>password:</label></th>
+<td><input type="password" name="password" /></td>
+</tr>
+<br>
+
+<tr>
+<th><label>gender:</label></th>
+<td>Male<input type="radio" name="gender" value="male"/>
+Female<input type="radio" name="gender" value="female"/>
+others<input type="radio" name="gender" value="others"/>
+</td>
+</tr>
+<br>
+
+<tr>
+<th><label>role:</label></th>
+<td>Admin<input type="radio" name="role" value="admin"/>
+Customer<input type="radio" name="role" value="customer"/>
+</td>
+</tr>
+<br>
+
+<tr>
+<th><label>address:</label></th>
+<td><textarea name="address"></textarea>
+</td>
+</tr>
+<br>
+
+<tr>
+<th><input type="submit" /></th>
+</tr>
+</form>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+		<form action="validate" method="post">
+			<h1>
+				<mark>
+					<tr>
+						<th colspan="2"><h3>Login</h3></th>
+					</tr>
+				</mark>
+			</h1>
+
+			<tr>
+				<th><label>email:</label></th>
+				<td><input type="email" name="email" /></td>
+			</tr>
+			<br>
+
+			<tr>
+				<th><label>password:</label></th>
+				<td><input type="password" name="password" /></td>
+			</tr>
+			<br>
+            <tr>
+				<th colspan="2"><input type="submit"  value="LOGIN"/></th>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>

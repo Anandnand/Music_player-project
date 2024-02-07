@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<table>
+		<form action="newSong" method="post">
+			<h1>
+				<mark>
+					<tr>
+						<th colspan="2"><h2>Add Song</h2></th>
+					</tr>
+				</mark>
+			</h1>
+
+			<tr>
+				<th><label>Name:</label></th>
+				<td><input type="text" name="name" /></td>
+			</tr>
+			<br>
+
+			<tr>
+				<th><label>Artist:</label></th>
+				<td><input type="text" name="artist" /></td>
+			</tr>
+			
+			<br>
+			<tr>
+				<th><label>genre:</label></th>
+				<td><select>
+				<option value="classic"></option>
+				<option value="melody"></option>
+				<option value="rap"></option>
+			   </select></td>
+		   </tr>
+			<br>
+			
+            <tr>
+				<th colspan="2"><input type="submit"  value="LOGIN"/></th>
+			</tr>
+		</form>
+	</table>
+
+</body>
+</html>

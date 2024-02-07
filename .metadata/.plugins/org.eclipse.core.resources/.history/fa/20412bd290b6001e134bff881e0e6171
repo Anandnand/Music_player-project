@@ -1,0 +1,23 @@
+package com.example.demo.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+
+@Controller
+public class UserController {
+	@PostMapping("/register")
+	public String addUser(@RequestParam("username") String username,
+			@RequestParam("email") String email,
+			@RequestParam("password") String password,
+			@RequestParam("gender") String gender,
+			@RequestParam("role") String role,
+			@RequestParam("address") String address) {
+		System.out.println(username+" "+password+" "+email+" "+role+" "+gender+" "+address);
+		return "home";
+	}
+	
+	
+
+}

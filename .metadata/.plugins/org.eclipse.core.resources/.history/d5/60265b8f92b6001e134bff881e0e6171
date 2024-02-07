@@ -1,0 +1,28 @@
+package com.example.demo.services;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.demo.entities.Users;
+import com.example.demo.repositories.UserRepo;
+
+@Service
+public class UserServiceImpl implements UserService {
+	
+	@Autowired
+	UserRepo up;
+	public UserServiceImpl(UserRepo up) {
+		super();
+		this.up = up;
+	}
+
+
+	@Override
+	public List<Users> addUsers(Users user) {
+		return up.save(user) ;
+	}
+	
+
+}
